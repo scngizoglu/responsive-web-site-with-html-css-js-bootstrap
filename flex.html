@@ -1,0 +1,343 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Site</title>
+    <link rel="stylesheet" href="flex.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="header">        
+            <div class="logo">
+                    <img src="img/gs1.svg">
+            </div>
+            <div class="search">
+                <div class="icon"></div>
+                <div class="input">
+                    <input type="text" placeholder="Search" id="mysearch">
+                </div>
+                <span class="clear" onclick="document.getElementById('mysearch').value=''"></span>
+            </div>
+            <div class="buttons">
+                  <button type="button" class="btn1"><i class="fa fa-user" aria-hidden="true"></i>Barkod Alın</button>
+                  <button type="button" class="btn2"><i class="fa fa-sign-in" aria-hidden="true"></i>Üye Girişi</button>
+                  
+            </div> 
+            <a href="#" class="toggle-button" >
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>  
+        </div>
+        <div class="banner">
+            Endüstrinin HFSS verilerini paylaşmasını kolaylaştırıyor. HFSS verilerinizi paylaşmak için şimdi kaydolun.
+        </div>  
+        <div class="secretButton">
+            <button type="button" class="but" >Barkod alın</button>
+        </div>
+        <div class="navbar-links">   
+                <button type="button" class="secretLogin">Üye Girişi</button>
+            <ul>
+                <li class="active"><a href="#">About us</a></li>
+                <li><a href="#">Standart & services</a></li>
+                <li><a href="#">Industries</a></li>
+                <li><a href="#">Partners</a></li>
+                <li><a href="#">Support & training</a></li>
+               
+                      
+            </ul>
+        </div> 
+        
+    </nav>
+    
+  
+  <div class="presentation">
+    <div class="presentation-banner">
+      <img src="img/banner.jpg" alt="" />
+      <div class="presentation-content">
+          <h1>İnsanların çalışma ve yaşama şeklini dönüştürmek için standartların gücünden yararlanıyoruz</h1>
+          <p>
+            GS1 standartlarının ortak dili, küresel olarak 2 milyondan fazla kuruluştan oluşan topluluğumuzun her şeyi benzersiz bir şekilde tanımlamasına, tanımlamasına ve izlemesine yardımcı olarak herkes için verilere daha fazla güven sağlar.</p>
+            <button type="button" class="prepared-button" style="width: 300px;">
+              Hakkımızda daha fazlası için<i class="fa-solid fa-arrow-right-long"></i></button>
+          </div>
+    </div>
+  </div>
+
+
+    <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <div class="card" style="width: 25rem; height: 400px;">
+                <img class="card-img-top" style="height: 180px;" src="img/needbarcode.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title"><b>Bir barkoda mı ihtiyacınız var?</b></h5>    
+                  <p class="card-text"  style="font-size: 18; ">Ürünlerinizi mağazada veya internette satıyorsanız bir barkod numarasına (veya GTIN'ye) ihtiyacınız olacaktır. Ve GS1, benzersiz GTIN'lerin tek yetkili sağlayıcısıdır.</p>
+                  <a href="#" class="btn btn-primary">View plans and sign up</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm">
+            <div class="card" style="width: 25rem; height: 400px;">
+                <img class="card-img-top" style="height: 180px;" src="img/productdata.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title"><b>Ürün bilgileri</b></h5>    
+                  <p class="card-text" style="font-size: 18; ">Ürünleriniz için kolayca paylaşabileceğiniz tek, güvenilir veri kaynağıyla müşterilerinizi bilgilendirin ve koruyun.</p>
+                  <a href="#" class="btn btn-primary" style="margin-top:28px">Go somewhere</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm">
+            <div class="card" style="width: 25rem; height: 400px;">
+                <img class="card-img-top" style="height:180px;" src="img/supportandtraining.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title" style="cursor:pointer"><b>Destek ve eğitim</b></h5>    
+                  <p class="card-text"  style=" font-size: 18; ">GS1 standartlarını kullanıp uygularken ve işinizi büyütürken, attığınız her adımda size destek olmak için buradayız.</p>
+                  <a href="#" class="btn btn-primary" style="margin-top:28px">Go somewhere</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="prepared">
+          <div class="prepared-content">
+            <img src="https://www.gs1uk.org/sites/default/files/styles/max_1300x1300/public/2022-03/banner-hfss-campaign-v2_1.webp?itok=T7HHaWGl" alt="" />
+            <div class="prepared-content-text">
+                <h1>HFSS'ye hazır mısınız?</h1>
+                <p>Araştırmamız, HFSS mevzuatının hissiyatı gerçeğe dönüşecekse yapılacak daha çok şey olduğunu ortaya koyuyor.</p>
+                <button type="button" class="prepared-button">Learn More<i class="fa-solid fa-arrow-right-long"></i></button>
+            </div>
+       </div>
+    </div>
+    <div class="campaigns" id="kutu">
+        <div class="campaigns-content">
+            <h1>Son Kampanyalarımız</h1>
+            <p>Sürdürülebilirlik, hasta güvenliği, ticaret ve gıda güvenliği dahil olmak üzere, standartlarımızın daha güvenli ve daha sürdürülebilir bir dünyaya güç sağlamak için kullanılabileceği konularda kampanya yürütüyoruz.</p>
+        </div>
+    </div>
+            <div class="container" >
+            <div class="row">
+                <div class="col-sm">
+                  <div class="card" style="width: 25rem; height: 425px;" >
+                      <img class="card-img-top" style="height: 180px;" src="img/campaigns1.png" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title"><b>HFSS'ye hazır mısınız?</b></h5>    
+                        <p class="card-text"  style="font-size: 18; ">Araştırmamız, HFSS mevzuatının hissiyatı gerçeğe dönüşecekse yapılacak daha çok şey olduğunu ortaya koyuyor.</p>
+                        <a href="#" class="btn btn-primary" style="margin-top:29px">View plans and sign up</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card" style="width: 25rem; height: 425px;">
+                        <img class="card-img-top" style="height: 180px;" src="img/campaigns2.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title"><b>Döngüsel ekonomiyi güçlendirmek</b></h5>    
+                          <p class="card-text"  style="font-size: 18; ">Daha döngüsel bir ekonomiye doğru ilerlemeyi sağlamak için standartlarımızın gücünden yararlanıyoruz.</p>
+                          <a href="#" class="btn btn-primary" style="margin-top:29px">View plans and sign up</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-sm">
+                    <div class="card" style="width: 25rem; height: 425px;">
+                        <img class="card-img-top" style="height: 180px;" src="img/campaigns3.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title"><b>Sınırların ötesinde büyüme</b></h5>    
+                          <p class="card-text"  style="font-size: 18; ">Finansman fırsatları bulmak da dahil olmak üzere ihracat yolculuğuna başlayan işletmelere yardım ve destek sunuyoruz.</p>
+                          <a href="#" class="btn btn-primary">View plans and sign up</a>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              </div>
+   
+    <div class="prepared">
+      <div class="prepared-content">
+        <img src="img/memberstories.png" alt="" />
+        <div class="prepared-content-text">
+            <h1>Üye hikayeleri</h1>
+            <p>Üyelerimizi nasıl desteklediğimizi ve işlerini büyütmelerine nasıl yardımcı olduğumuzu görün.</p>
+            <button type="button" class="prepared-button" style="width:300px; height: 65px;" id="cardId">GS1 TR üyelerinden haber alın<i class="fa-solid fa-arrow-right-long"></i></button>
+            <button type="button" class="prepared-button" style="width:200px; height: 65px; margin-left:10px" id="cardId">Üye Girişi<i class="fa-solid fa-arrow-right-long"></i></button>
+        </div>
+   </div>
+</div>
+<div class="campaigns" id="kutu">
+  <div class="campaigns-content">
+      <h1>Standartlar & hizmetler</h1>
+      <p>
+        Standartlarımız, ürünleriniz, konumlarınız, varlıklarınız ve daha fazlasıyla ilgili bilgileri benzersiz bir şekilde tanımlamanız, doğru şekilde yakalamanız ve otomatik olarak paylaşmanız için ortak bir yol sağlar.</p>
+  </div>
+</div>
+
+<div class="container" >
+  <div class="row">
+      <div class="col-sm">
+        <div class="card" style="width: 25rem; height: 385px;" >
+            <img class="card-img-top" style="height: 180px;" src="img/services_1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"><b>
+                Konumlarınızı tanımlayın</b></h5>    
+              <p class="card-text"  style="font-size: 18; ">Benzersiz küresel tanımlayıcımız olan GS1 Küresel Konum Numaraları (GLN'ler) ile konum yönetiminizi basitleştirin.</p>
+              
+            </div>
+          </div>
+      </div>
+      <div class="col-sm">
+           <div class="card" style="width: 25rem; height: 385px;" >
+              <img class="card-img-top" style="height: 180px;" src="img/services_2.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title"><b>Siparişlerinizi ve ödemelerinizi hızlandırın</b></h5>    
+                <p class="card-text"  style="font-size: 18; ">Elektronik Veri Değişimi (EDI) mesajlaşması, dünya çapındaki sektörlerdeki kuruluşlar için sipariş ve ödeme süreçlerini hızlandırır.</p>
+               
+              </div>
+            </div>
+        </div>
+        <div class="col-sm">
+          <div class="card" style="width: 25rem; height: 385px;" >
+              <img class="card-img-top" style="height: 180px;" src="img/services_3.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title"><b>Doğru barkodu alın</b></h5>    
+                <p class="card-text"  style="font-size: 18; ">Farklı sektörler için ve farklı tarama ortamlarında kullanılabilen eksiksiz bir barkod ailemiz var.</p>
+    
+              </div>
+            </div>
+        </div>
+    </div>
+    </div>
+<div class="presentation" style="margin-top:50px;" >
+  <div class="presentation-banner" >
+    <img src="img/needabarcode.jpg" alt=""/>
+    <div class="presentation-content">
+        <h1>
+          Bir barkoda mı ihtiyacınız var?</h1>
+        <p>
+          Ürünlerinizi ister çevrimiçi ister mağazada satıyor olun, her şey bir GS1 numarası ve barkodu ile başlar.
+        </p>
+          <button type="button" class="prepared-button" style="width: 300px;">
+            Ürünleriniz için şimdi bir barkod alın<i class="fa-solid fa-arrow-right-long"></i></button>
+        </div>
+  </div>
+</div> 
+</div>
+<footer>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="footer-brand">
+          <div class="footer-brand-img">
+            <img src="img/gs1.svg">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="lf-col">
+          <h1>Hakkımızda</h1>
+          <div class="footer-menu-items">
+          <div class="footer-menu-items-lf">  
+             <ul>
+            <li><a href="#">Hakkımızda</a></li>
+            <li><a href="#">Biz Kimiz?</a></li>
+            <li><a href="#">Üyeler</a></li>
+            <li><a href="#">Standartlar & Servisler</a></li>
+            <li><a href="#">Kamu Politikası</a></li>
+             </ul>
+          </div> 
+      </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="lf-col">
+          <h1>Bir Barkod Alın</h1>
+          <div class="footer-menu-items">
+          <div class="footer-menu-items-lf">  
+             <ul>
+              <li><a href="#">GTINs ve Barkodlar</a></li>
+             </ul>
+          </div>
+      </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="lf-col">
+          <h1>Endüstrilerimiz</h1>
+          <div class="footer-menu-items">
+          <div class="footer-menu-items-lf">  
+             <ul>
+            <li><a href="#">Sağlık Hizmeti</a></li>
+            <li><a href="#">Perakende</a></li>
+            <li><a href="#">Kampyanyalar</a></li>
+             </ul>
+          </div>
+      </div>
+      </div>
+      </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-bottom-content">
+      <hr>
+      <div class="row">
+        <div class="col-md-3">
+             <div class="social-media">
+               <ul>
+                 <li><a href="#"><span class="iconify" data-icon="akar-icons:linkedin-box-fill" style="color: #082c6c;"  data-width="25" data-height="50"></span></a></li>
+                 <li><a href="#"><span class="iconify" data-icon="akar-icons:youtube-fill" style="color: #082c6c;" data-width="25" data-height="50"></span></a></li>
+                 <li><a href="#"><span class="iconify" data-icon="akar-icons:youtube-fill" style="color: #082c6c;" data-width="25" data-height="50"></span></a></li>
+                 <li><a href="#"><span class="iconify" data-icon="akar-icons:facebook-fill" style="color: #082c6c;" data-width="25" data-height="50"></span></a></li>
+                 <li><a href="#"><span class="iconify" data-icon="fa6-brands:instagram-square" style="color: #082c6c;" data-width="25" data-height="50"></span></a></li>
+               </ul>
+             </div>
+        </div>
+        <div class="col-md-9">
+           <div class="footer-bottom-right-top">
+                <ul>
+                  <li><a href="#">Şartlar ve Koşullar</a></li>
+                  <li><a href="#">Çerez Politikası</a></li>
+                  <li><a href="#">Gizlilik Politikası</a></li>
+                  <li><a href="#">Rekabet Politikası</a></li>
+                  <li><a href="#">Son Kullanıcı Terimleri</a></li>
+                </ul>
+           </div>
+           <div class="footer-bottom-right-bottom">
+             <p>GS1 UK is a company limited by guarantee and registered in England and Wales under company number 01256140.</p>
+             <p>Registered office Hasilwood House, 60 Bishopsgate, London, EC2N 4AW. VAT number GB287940215.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+    
+
+    <script>
+        const icon=document.querySelector('.icon');
+        const search=document.querySelector('.search');
+        const toggleButton=document.getElementsByClassName('toggle-button')[0];
+        const navbarLinks=document.getElementsByClassName('navbar-links')[0];
+        icon.onclick=function(){
+            search.classList.toggle('active')
+        }
+        toggleButton.addEventListener('click',()=>{
+            navbarLinks.classList.toggle('active')
+        })
+      const cardId=document.getElementById("cardId");
+      const collection = document.getElementById("kutu");
+      cardId.addEventListener('click',()=>{
+        alert(collection);
+
+      })
+
+
+    </script>
+
+</body>
+</html>
